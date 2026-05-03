@@ -5,33 +5,11 @@ An end-to-end data science project that predicts whether a compound
 can penetrate the blood-brain barrier (BBB) using Lipinski's Rule of 5 
 and a Random Forest classifier.
 
-## Project Workflow
-![Workflow](outputs/workflow.png)
-
 ## Dataset
 - **Source:** B3DB (Blood-Brain Barrier Database)
 - **Size:** 7,807 compounds
 - **Label:** BBB+ (penetrates barrier) / BBB- (does not penetrate)
 
-## Project Structure
-drug-likeness-project/
-│
-├── data/
-│   ├── B3DB_classification.tsv      ← raw data
-│   ├── B3DB_clean.csv               ← cleaned data
-│   ├── feature_importance.csv       ← Power BI feature importance
-│   └── ml_results.csv               ← model predictions
-│
-├── notebooks/
-│   ├── EDA_Setup.ipynb              ← library checks + data loading
-│   ├── 02_EDA.ipynb                 ← EDA + cleaning
-│   └── 03_ML.ipynb                  ← ML model
-│
-├── outputs/
-│   └── dashboard.png               ← Power BI dashboard screenshot
-│
-├── requirements.txt
-└── README.md
 ## Tools Used
 - **Python** — pandas, numpy, matplotlib, seaborn, scikit-learn, RDKit
 - **Power BI** — interactive dashboard
@@ -44,7 +22,7 @@ drug-likeness-project/
 - **Insight:** BBB+ compounds are smaller, more fat soluble, and form fewer hydrogen bonds, which is why they penetrate the blood-brain barrier more easily.
 
 ## Dashboard Preview
-![Dashboard](outputs/dashboard.png)
+![Dashboard](c:\Users\felip\drug-likeness-project\output\dashboardprev.png)
 
 The Power BI dashboard presents an interactive summary of both the 
 exploratory analysis and machine learning results across ten visuals. 
