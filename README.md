@@ -22,7 +22,7 @@ and a Random Forest classifier.
 - **Insight:** BBB+ compounds are smaller, more fat soluble, and form fewer hydrogen bonds, which is why they penetrate the blood-brain barrier more easily.
 
 ## Dashboard Preview
-![Dashboard](c:\Users\felip\drug-likeness-project\output\dashboardprev.png)
+![Dashboard](output/dashboardprev.png)
 
 The Power BI dashboard presents an interactive summary of both the 
 exploratory analysis and machine learning results across ten visuals. 
